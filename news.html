@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="news.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        /* Set the width of the sidebar to 250px (show it) */
+        function openNav() {
+            document.getElementById("mySidepanel").style.width = "250px";
+        }
+
+        /* Set the width of the sidebar to 0 (hide it) */
+        function closeNav() {
+            document.getElementById("mySidepanel").style.width = "0";
+        }
+
+    </script>
+    <title>News</title>
+</head>
+
+<body>
+
+    <div id="header">
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <br> <a href="#">Order Print</a><br>
+            <br> <a href="#">Order Custom</a><br>
+            <br> <a href="myartworks.html">My Artwork</a><br>
+        </div>
+
+        <button class="openbtn" onclick="openNav()">&#9776; </button>
+        <div id="logo">
+            <img src="images/Zaid_Shaikh-removebg-preview.png">
+        </div>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="work.html">WORK</a></li>
+            <li><a href="news.html">NEWS</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="#contact"> CONTACT </a></li>
+        </ul>
+    </div>
+
+    <div id="pannel">
+        <div id="ptext1">
+            MAY 11
+        </div>
+        <div id="ptext2">
+            UPDATES FROM STUDIO
+        </div>
+    </div>
+
+    <div id="n1">
+        <div id="n11">
+            <div id="ntext1">
+                ORIGNALS
+            </div>
+            <div id="ntext2">
+                Patronage is such a vital aspect of an artist’s practice, and I am extremely grateful to all the
+                collectors over the years who have given my originals a safe home and displayed them in exciting
+                exhibitions to gain new admirers. To this end I’d like to acknowledge my new collectors - I am extremely
+                excited for the works to embark on the next chapter in your part of the world, and look forward to
+                sharing my journey as an artist with you.
+                <br><br>
+                April saw the completion of my latest new work Sanctuary and I am busy working on the next work from my
+                home studio
+                <br><br>
+                If you are interested in originals, please feel free to contact us directly.
+            </div>
+        </div>
+        <div id="n12">
+            <img src="images/news1.jpg">
+        </div>
+    </div>
+
+    <div id="n3">
+        <div id="n31">
+            EXHIBITIONS
+        </div>
+        <div id="n32">
+            April saw the exhibit of a few of my originals in Austria at the lovely Galerie Kovacek & Zetter, Fine Art &
+            Contemporary. This spring exhibition came to a close on the 16 April. The original pieces that were on
+            display were Ritual, Venus and Guardian.
+            <br><br>
+            If you were unable to make that exhibition there is the chance to catch the works in the upcoming month at
+            Art Austria which runs from the 5 - 8 May.
+        </div>
+    </div>
+    <div id="n4">
+        <div id="n41">
+            SPECIAL EDITION PRINT
+            <img src="images/art4.jpeg">
+        </div>
+        <div id="n42">
+            My newest work Sanctuary is officially completed and is now available as a print. This print has turned out
+            to be one of my favourited prints to date. I have been particularly interested in historical references
+            lately, and a reinterpretation of the Three Graces found its way into this work.
+            <br><br>
+            I t is currently available as a special preorder edition where the first 10 will come with a hand-made
+            etching, made in studio as the maiden etchings of the in-house printing press which I am also really excited
+            about.
+            <br><br>
+            If you would like to see this special preorder edition, you can see it <a href="work.html"> here.</a>
+        </div>
+    </div>
+
+    <div id="n5">
+        <div id="n51">
+            <div id="n511">
+                NURTURED NATURE (MALE) PRINTS
+            </div>
+            <div id="n512">
+                Nurtured Nature (Male) prints are nearing the end of their run and seems to be a favourite of
+                everyone’s.
+                <br><br>
+                If it is something you have been eyeing for a while, this is your chance to add it to your collection is
+                now.
+            </div>
+        </div>
+        <div id="n52">
+            <img src="images/news2.jpeg">
+        </div>
+    </div>
+    
+    <div id="n6">
+        <div id="n61">
+            PATREON
+        </div>
+        <div id="n62">
+            I really enjoy giving tips and skill-sharing and find it really gratifying to be part of a community of artists. I  have a membership programme on Patreon where I post videos I do not post on YouTube, as well as references images, tools, behind the scenes and more.
+        </div>
+    </div>
+    <div id="contact">
+
+        <div id="c1">
+            <img src="images/email.png">
+        </div>
+        <div id="c2">
+            <img src="images/logoz.png">
+        </div>
+        <div id="c3">
+            <div class="container">
+                <form action="action_page.php">
+              
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                    <option value="India">India</option>
+                  </select>
+              
+                  <label for="subject">Message</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
+        </div>
+
+        <img src="images/last.png">
+    </div>
+</body>
+
+</html>

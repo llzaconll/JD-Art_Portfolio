@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="about.css">
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        /* Set the width of the sidebar to 250px (show it) */
+        function openNav() {
+            document.getElementById("mySidepanel").style.width = "250px";
+        }
+
+        /* Set the width of the sidebar to 0 (hide it) */
+        function closeNav() {
+            document.getElementById("mySidepanel").style.width = "0";
+        }
+
+    </script> <title>ABOUT</title>
+</head>
+
+<body>
+
+    <div id="header">
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <br> <a href="#">Order Print</a><br>
+            <br> <a href="#">Order Custom</a><br>
+            <br> <a href="myartworks.html">My Artwork</a><br>
+        </div>
+
+        <button class="openbtn" onclick="openNav()">&#9776; </button>
+        <div id="logo">
+            <img src="images/Zaid_Shaikh-removebg-preview.png">
+        </div>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="work.html">WORK</a></li>
+            <li><a href="news.html">NEWS</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="#contact"> CONTACT </a></li>
+        </ul>
+    </div>
+
+    <div id="m">
+        
+        <div id="r4c1">
+            <div id="s1">
+                <img src="images/aboutimg1.jpg">
+        </div>
+        <div id="s2">
+            <img src="images/aboutimg2.jpg">
+        </div>
+        </div>
+        <div id="r4c2">
+            <img src="images/aboutme.png">
+        </div>
+
+        <div id="contact">
+        
+            <div id="c1">
+                <img src="images/email.png">
+            </div>
+            <div id="c2">
+                <img src="images/logoz.png">
+            </div>
+            <div id="c3">
+                <div class="container">
+                    <form action="action_page.php">
+                  
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  
+                      <label for="country">Country</label>
+                      <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                        <option value="India">India</option>
+                      </select>
+                  
+                      <label for="subject">Message</label>
+                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+                  
+                      <input type="submit" value="Submit">
+                  
+                    </form>
+                  </div>
+            </div>
+        
+        <img src="images/last.png">
+    </div>
+
+        </div>
+       
+    
+    </div>
+
+    
+   
+        
+    
+</body>
+
+</html>

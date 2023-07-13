@@ -1,0 +1,461 @@
+.sidepanel {
+    height: 100%; /* Specify a height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    margin-top: 9px;
+    margin-left: 8px;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 254, 254); /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+  }
+  
+  /* The sidepanel links */
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #707070;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style the button that is used to open the sidepanel */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: rgb(123, 123, 123);
+  }
+  /* ------------------------------ */
+#header {
+    
+    background-color: #ffffff;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+#header * {
+    display: inline;
+}
+
+#header li {
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+#header li a {
+    color: #818181;
+    text-decoration: none;
+}
+
+#header li a:hover {
+    color: #000000;
+}
+
+#logo img {
+    /* padding-left: 200px; */
+    height: 300px;
+    padding-top: 20px;
+    padding-right: 600px;
+    margin-right: 150px;
+}
+
+#p1 {
+    background-color: rgb(255, 255, 255);
+    height: 180px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: #898989;
+    font-family: sans-serif;
+}
+
+#r4 {
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    height: 3675px;
+    width: 95%;
+    margin: 35px;
+    margin-top: 5%;
+}
+
+
+
+#row1 {
+    width: 31%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
+
+#row1 img {
+    width: 100%;
+    margin-top: 20%;
+}
+
+#row2 img {
+    height: 100%;
+
+}
+
+#row3 img {
+    width: 100%;
+    margin-top: 20%;
+}
+
+#row4 img {
+    width: 100%;
+    margin-top: 20%;
+}
+
+#row5 img {
+    width: 100%;
+    margin-top: 5%;
+}
+
+#row6 img {
+    height: 100%;
+}
+
+#row7 img {
+    width: 100%;
+    margin-top: 22%;
+}
+
+#row8 img {
+    height: 100%;
+}
+
+#row9 img {
+    height: 100%;
+}
+
+#row10 img {
+    height: 100%;
+    /* margin-top: 20%; */
+}
+
+#row11 img {
+    height: 100%;
+    /* margin-top: 20%; */
+}
+
+#row12 img {
+    height: 100%
+    /* margin-top: 20%; */
+}
+
+#row13 img {
+    height: 100%
+    /* margin-top: 20%; */
+}
+
+#row14 img {
+    height: 100%
+    /* margin-top: 20%; */
+}
+
+#row15 img {
+    height: 100%
+    /* margin-top: 20%; */
+}
+
+#row16 img {
+    height: 100%
+    /* margin-top: 20%; */
+}
+
+#row17 img {
+    width: 100%;
+    margin-top: 20%;
+}
+
+#row18 img {
+    height: 100%;
+    /* margin-top: 20%; */
+}
+
+#row19 img {
+    width: 100%;
+    margin-top: 20%;
+}
+
+#row20 img {
+    height: 100%;
+    /* margin-top: 20%; */
+}
+
+#row21 img {
+    height: 100%;
+    /* margin-top: 20%; */
+}
+
+#row2 {
+    width: 31%;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#row3 {
+    width: 31%;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#row4 {
+    width: 31%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#row5 {
+    width: 31%;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#row6 {
+    width: 31%;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#row7 {
+    width: 31%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#row8 {
+    width: 31%;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#row9 {
+    width: 31%;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#row10 {
+    width: 31%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#row11 {
+    width: 31%;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#row12 {
+    width: 31%;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#row13 {
+    width: 31%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#row14 {
+    width: 31%;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#row15 {
+    width: 31%;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#row16 {
+    width: 31%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#row17 {
+    width: 31%;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#row18 {
+    width: 31%;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#row19 {
+    width: 31%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#row20 {
+    width: 31%;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#row21 {
+    width: 31%;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#r4 div {
+    background-color: rgb(255, 255, 255);
+    float: left;
+    text-align: center;
+    height: 500px;
+    margin-right: 20px;
+    /* margin: 10px; */
+}
+
+#contact {
+    background-color: rgb(255, 255, 255);
+    height: 750px;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    /* padding-left: 2%; */
+    padding-top: 100px;
+    margin-bottom: 10px;
+}
+
+#contact img {
+    /* margin-top: 100px; */
+    height: 200px;
+}
+
+/* #r4 {
+    margin-left: 90px;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 10px;
+} */
+
+#c1 {
+    background-color: rgb(255, 255, 255);
+    width: 33.33%;
+    /* margin-right: 1%; */
+    margin-left: 10%;
+}
+
+#c1 img {
+    height: 80%;
+    margin-left: 140px;
+}
+
+#c2 {
+    /* background-color: pink; */
+    width: 30%;
+    margin-right: 1%;
+}
+
+#c2 img {
+    height: 80%;
+    margin-right: 50px;
+}
+
+#c3 {
+    background-color: rgb(255, 255, 255);
+    width: 35.6%;
+    margin-right: 1%;
+}
+
+#contact div {
+    /* background-color: orangered; */
+    float: left;
+    text-align: center;
+    height: 450px;
+    margin: 2px;
+    ;
+    /* padding-top: 300px; */
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #bbbaba; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    /* resize: vertical Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #787878;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #5b5b5b;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    /* height: 300px; */
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
